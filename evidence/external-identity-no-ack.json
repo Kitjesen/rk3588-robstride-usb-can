@@ -1,0 +1,427 @@
+{
+  "transport": "userspace gs_usb/libusb",
+  "bitrate": 1000000,
+  "query_ids": [
+    1,
+    2,
+    3,
+    4,
+    127
+  ],
+  "motor_commands": "mode0 getDeviceId only",
+  "motor_parameter_or_actuation_writes": 0,
+  "ports": [
+    {
+      "serial": "adapter-A",
+      "queries": [
+        {
+          "motor_id": 1,
+          "arbitration_id": "0000FF01",
+          "usb_tx_echo_received": true
+        }
+      ],
+      "responses": [],
+      "errors": [
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        }
+      ],
+      "completed": false,
+      "adapter_stopped": true,
+      "initialization": "host format; CAN stop; 1Mbps timing; CAN start; no USB device reset",
+      "stop_reason": "CAN error or no USB transmit echo; no further queued queries",
+      "unique_responders": []
+    },
+    {
+      "serial": "adapter-B",
+      "queries": [
+        {
+          "motor_id": 1,
+          "arbitration_id": "0000FF01",
+          "usb_tx_echo_received": true
+        }
+      ],
+      "responses": [],
+      "errors": [
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        }
+      ],
+      "completed": false,
+      "adapter_stopped": true,
+      "initialization": "host format; CAN stop; 1Mbps timing; CAN start; no USB device reset",
+      "stop_reason": "CAN error or no USB transmit echo; no further queued queries",
+      "unique_responders": []
+    },
+    {
+      "serial": "adapter-C",
+      "queries": [
+        {
+          "motor_id": 1,
+          "arbitration_id": "0000FF01",
+          "usb_tx_echo_received": true
+        }
+      ],
+      "responses": [],
+      "errors": [
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        }
+      ],
+      "completed": false,
+      "adapter_stopped": true,
+      "initialization": "host format; CAN stop; 1Mbps timing; CAN start; no USB device reset",
+      "stop_reason": "CAN error or no USB transmit echo; no further queued queries",
+      "unique_responders": []
+    },
+    {
+      "serial": "adapter-D",
+      "queries": [
+        {
+          "motor_id": 1,
+          "arbitration_id": "0000FF01",
+          "usb_tx_echo_received": true
+        }
+      ],
+      "responses": [],
+      "errors": [
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        }
+      ],
+      "completed": false,
+      "adapter_stopped": true,
+      "initialization": "host format; CAN stop; 1Mbps timing; CAN start; no USB device reset",
+      "stop_reason": "CAN error or no USB transmit echo; no further queued queries",
+      "unique_responders": []
+    },
+    {
+      "serial": "adapter-E",
+      "queries": [
+        {
+          "motor_id": 1,
+          "arbitration_id": "0000FF01",
+          "usb_tx_echo_received": true
+        }
+      ],
+      "responses": [],
+      "errors": [
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        },
+        {
+          "can_id": "20000024",
+          "data": "0030000000008500"
+        }
+      ],
+      "completed": false,
+      "adapter_stopped": true,
+      "initialization": "host format; CAN stop; 1Mbps timing; CAN start; no USB device reset",
+      "stop_reason": "CAN error or no USB transmit echo; no further queued queries",
+      "unique_responders": []
+    }
+  ],
+  "recorded_date": "2026-10-21",
+  "redaction": "USB serials replaced by consistent aliases; boot and USB address identifiers removed"
+}

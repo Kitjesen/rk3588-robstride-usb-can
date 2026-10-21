@@ -1,0 +1,35 @@
+{
+  "mode": "SILENT plus internal LOOPBACK",
+  "external_CAN_transmission_requested": false,
+  "motor_commands": 0,
+  "ports": [
+    {
+      "serial": "adapter-A",
+      "loopback_received": true,
+      "stopped": true
+    },
+    {
+      "serial": "adapter-B",
+      "loopback_received": true,
+      "stopped": true
+    },
+    {
+      "serial": "adapter-C",
+      "loopback_received": true,
+      "stopped": true
+    },
+    {
+      "serial": "adapter-D",
+      "loopback_received": true,
+      "stopped": true
+    },
+    {
+      "serial": "adapter-E",
+      "loopback_received": true,
+      "stopped": true
+    }
+  ],
+  "success": true,
+  "recorded_date": "2026-10-21",
+  "redaction": "USB serials replaced by consistent aliases; boot and USB address identifiers removed"
+}

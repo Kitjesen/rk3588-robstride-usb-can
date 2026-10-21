@@ -1,0 +1,143 @@
+{
+  "kernel_module_installed": false,
+  "transport": "libusb/usbfs userspace",
+  "runtime": "/userdata/brainstem-usb-can-runtime/gs-usb-0.3.1-python-can-4.6.1",
+  "devices": [
+    {
+      "serial": "adapter-A",
+      "product": "candleLight USB to CAN adapter",
+      "device_info": {
+        "reserved1": 0,
+        "reserved2": 0,
+        "reserved3": 0,
+        "icount": 0,
+        "fw_version": 2,
+        "hw_version": 1
+      },
+      "capability": {
+        "feature": 243,
+        "fclk_can": 48000000,
+        "tseg1_min": 1,
+        "tseg1_max": 16,
+        "tseg2_min": 1,
+        "tseg2_max": 8,
+        "sjw_max": 4,
+        "brp_min": 1,
+        "brp_max": 1024,
+        "brp_inc": 1
+      },
+      "capability_read_ok": true
+    },
+    {
+      "serial": "adapter-B",
+      "product": "candleLight USB to CAN adapter",
+      "device_info": {
+        "reserved1": 0,
+        "reserved2": 0,
+        "reserved3": 0,
+        "icount": 0,
+        "fw_version": 2,
+        "hw_version": 1
+      },
+      "capability": {
+        "feature": 243,
+        "fclk_can": 48000000,
+        "tseg1_min": 1,
+        "tseg1_max": 16,
+        "tseg2_min": 1,
+        "tseg2_max": 8,
+        "sjw_max": 4,
+        "brp_min": 1,
+        "brp_max": 1024,
+        "brp_inc": 1
+      },
+      "capability_read_ok": true
+    },
+    {
+      "serial": "adapter-D",
+      "product": "candleLight USB to CAN adapter",
+      "device_info": {
+        "reserved1": 0,
+        "reserved2": 0,
+        "reserved3": 0,
+        "icount": 0,
+        "fw_version": 2,
+        "hw_version": 1
+      },
+      "capability": {
+        "feature": 243,
+        "fclk_can": 48000000,
+        "tseg1_min": 1,
+        "tseg1_max": 16,
+        "tseg2_min": 1,
+        "tseg2_max": 8,
+        "sjw_max": 4,
+        "brp_min": 1,
+        "brp_max": 1024,
+        "brp_inc": 1
+      },
+      "capability_read_ok": true
+    },
+    {
+      "serial": "adapter-E",
+      "product": "candleLight USB to CAN adapter",
+      "device_info": {
+        "reserved1": 0,
+        "reserved2": 0,
+        "reserved3": 0,
+        "icount": 0,
+        "fw_version": 2,
+        "hw_version": 1
+      },
+      "capability": {
+        "feature": 243,
+        "fclk_can": 48000000,
+        "tseg1_min": 1,
+        "tseg1_max": 16,
+        "tseg2_min": 1,
+        "tseg2_max": 8,
+        "sjw_max": 4,
+        "brp_min": 1,
+        "brp_max": 1024,
+        "brp_inc": 1
+      },
+      "capability_read_ok": true
+    },
+    {
+      "serial": "adapter-C",
+      "product": "candleLight USB to CAN adapter",
+      "device_info": {
+        "reserved1": 0,
+        "reserved2": 0,
+        "reserved3": 0,
+        "icount": 0,
+        "fw_version": 2,
+        "hw_version": 1
+      },
+      "capability": {
+        "feature": 243,
+        "fclk_can": 48000000,
+        "tseg1_min": 1,
+        "tseg1_max": 16,
+        "tseg2_min": 1,
+        "tseg2_max": 8,
+        "sjw_max": 4,
+        "brp_min": 1,
+        "brp_max": 1024,
+        "brp_inc": 1
+      },
+      "capability_read_ok": true
+    }
+  ],
+  "can_frames_sent": 0,
+  "can_start_or_reset_commands_sent": 0,
+  "packages": {
+    "gs-usb": "0.3.1",
+    "python-can": "4.6.1",
+    "pyusb": "1.3.1"
+  },
+  "success": true,
+  "validation_limit": "USB descriptors/capabilities only; CAN bus frame transfer and motor replies untested",
+  "recorded_date": "2026-10-21",
+  "redaction": "USB serials replaced by consistent aliases; boot and USB address identifiers removed"
+}
